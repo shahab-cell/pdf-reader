@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.top-bar {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: orangered;
+  margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  background: coral;
+  padding: 1rem;
+}
